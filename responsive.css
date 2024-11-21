@@ -1,0 +1,28 @@
+@media (max-width : 480px) {
+    .display-box {
+        width: 90%!important;
+    }
+
+    .btns  {
+        width: 100%!important;
+    }
+
+    .btns p {
+        width: 100%!important;
+    }
+}
+
+
+@media (max-width : 768px) {
+    .display-box {
+        width: 90%!important;
+    }
+
+    .btns  {
+        width: 100%!important;
+    }
+
+    .btns p {
+        width: 100%!important;
+    }
+}

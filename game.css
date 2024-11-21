@@ -1,0 +1,98 @@
+body {
+    background-image: url(./RockPaperScissor-2880x1620_Lede.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 10vh;
+}
+
+
+
+.display-box {
+    height: 50vh;
+    width: 50%;
+    margin: auto;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+
+#display-ares {
+    height: 50vh; /* Set the height of the display container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Ensure no overflow */
+}
+
+#display-ares img {
+    height: 100%; /* Image height matches the container */
+    object-fit: contain; /* Ensures the image maintains its aspect ratio */
+}
+
+#text-appear {
+    width: 50%;
+    margin: auto;
+}
+
+#text-appear p {
+    color: white;
+    font-size: 3vh;
+    text-align: center;
+}
+
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    margin: auto;
+    margin-top:2vh ;
+}
+
+.btns button {
+    border-radius: 10px ;
+    border: none;
+    background-color: rgb(200, 200, 200);
+    height: 10vh;
+    width: 30%;
+    
+}
+
+.btns p {
+    color: black;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color:rgb(255, 255, 255) ;
+    width: 90%;
+    margin: auto;
+}
+
+
+
+
+
+.rock {
+    background-image: url(./rock.png);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.paper {
+    background-image: url(./paper-plane.png);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.scissor {
+    background-image: url(./scissors\ \(1\).png);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
